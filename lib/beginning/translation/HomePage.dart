@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_learning/homescreen.dart';
+import 'package:getx_learning/beginning/homescreen.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({super.key});

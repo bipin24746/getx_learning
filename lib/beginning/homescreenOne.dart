@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_learning/navigatingScreens.dart';
+import 'package:getx_learning/beginning/navigatingScreens.dart';
 
 class Homescreenone extends StatefulWidget {
   const Homescreenone({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_learning/heightWidth.dart';
+import 'package:getx_learning/beginning/heightWidth.dart';
 
 class Navigatingscreens extends StatefulWidget {
   // final String name;
