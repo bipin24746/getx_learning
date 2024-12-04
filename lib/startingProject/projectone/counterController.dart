@@ -2,7 +2,7 @@ import 'package:get/get.dart';
 
 class Countercontroller extends GetxController {
   RxInt counter = 1.obs;
-  incrementCounter() {
+  counterController() {
     counter.value++;
     print(counter.value);
   }

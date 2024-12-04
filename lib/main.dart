@@ -4,9 +4,10 @@ import 'package:getx_learning/beginning/heightWidth.dart';
 import 'package:getx_learning/beginning/homescreen.dart';
 import 'package:getx_learning/beginning/homescreenOne.dart';
 import 'package:getx_learning/beginning/navigatingScreens.dart';
+import 'package:getx_learning/beginning/project2/secondHome.dart';
 import 'package:getx_learning/beginning/translation/HomePage.dart';
 import 'package:getx_learning/beginning/translation/languages.dart';
-import 'package:getx_learning/startingProject/homeScreen.dart';
+import 'package:getx_learning/startingProject/projectone/homeScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
       //           ))
       // ],
 
-      home: const Homescreen(),
+      home: const SecondHome(),
     );
   }
 }
