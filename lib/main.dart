@@ -6,6 +6,8 @@ import 'package:getx_learning/beginning/homescreenOne.dart';
 import 'package:getx_learning/beginning/navigatingScreens.dart';
 import 'package:getx_learning/beginning/project2/secondHome.dart';
 import 'package:getx_learning/beginning/project3/thirdHome.dart';
+import 'package:getx_learning/beginning/project4/imagePicker.dart';
+import 'package:getx_learning/beginning/project5crud/homeCrud.dart';
 import 'package:getx_learning/beginning/translation/HomePage.dart';
 import 'package:getx_learning/beginning/translation/languages.dart';
 import 'package:getx_learning/startingProject/projectone/homeScreen.dart';
@@ -42,7 +44,7 @@ class MyApp extends StatelessWidget {
       //           ))
       // ],
 
-      home: const ThirdHome(),
+      home: const Homecrud(),
     );
   }
 }
