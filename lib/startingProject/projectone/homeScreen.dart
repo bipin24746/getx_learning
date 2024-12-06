@@ -32,9 +32,12 @@ class _HomescreenState extends State<Homescreen> {
           ),
         );
       }),
-      floatingActionButton: FloatingActionButton(onPressed: () {
-        controller.counterController();
-      }),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          controller.counterController();
+        },
+        child: Icon(Icons.add),
+      ),
     );
   }
 }

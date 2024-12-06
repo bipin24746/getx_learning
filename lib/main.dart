@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx_learning/all.dart';
 import 'package:getx_learning/beginning/heightWidth.dart';
 import 'package:getx_learning/beginning/homescreen.dart';
 import 'package:getx_learning/beginning/homescreenOne.dart';
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
       //           ))
       // ],
 
-      home: const Homecrud(),
+      home: const AllPages(),
     );
   }
 }

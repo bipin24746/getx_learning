@@ -49,10 +49,11 @@ class _HomescreenoneState extends State<Homescreenone> {
           Center(
               child: TextButton(
                   onPressed: () {
+                    Get.back();
                     // Get.to(Navigatingscreens(
                     //   name: " This is Second Page",
                     // ));
-                    Get.toNamed('/navigatorPage',arguments: ['this is first name','this is second name']);
+                    // Get.toNamed('/navigatorPage',arguments: ['this is first name','this is second name']);
                   },
                   child: Text("Go To screen two")))
         ],
